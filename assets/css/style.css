@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 285px;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #111111;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 19px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* ########## DESTAQUE ########## */
+.destaque {
+  background: #FBDFDB;
+  border-radius: 30px;
+  border-radius: 30px;
+  max-width: 940px;
+  height: 365px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.destaque h1 {
+  font-size: 32px;
+  color: #111111;
+  padding-top: 117px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 259px;
+}
+
+.destaque p {
+  opacity: 0.7;
+  font-size: 18px;
+  color: #000000;
+  line-height: 28px;
+  width: 316px;
+  height: 84px;
+  padding-left: 60px;
+}
+
+.destaque img {
+  position: absolute;
+  top: 66px;
+  right: 100px;
+}
+
+/* ########## MAIS ACESSADAS ########## */
+aside {
+  margin: 0 auto;
+}
+
+.mais-acessadas {
+  /* background-color:  red; */
+  max-width: 940px;
+  margin-top: 50px;
+}
+
+.mais-acessadas h1 {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 30px;
+}
+
+.item img {
+  width: 300px;
+  height: 140px;
+  border-radius: 10px;
+}
+
+.item h2 {
+  font-size: 18px;
+  color: #111111;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.item p {
+  font-size: 14px;
+  color: #777777;
+}
+
+/* ########## FOOTER ########## */
+footer {
+  background: #EEEEEE;
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  color: grey;
+  padding: 18px;
+}
