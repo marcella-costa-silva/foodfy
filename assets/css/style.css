@@ -1,3 +1,9 @@
+:root {
+  --color--black: #111111;
+  --color-background: #FBDFDB;
+  --color-grey: #777777;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +31,7 @@ header {
 
 .links a {
   text-decoration: none;
-  color: #111111;
+  color: var(--color--black);
   font-size: 16px;
   line-height: 26px;
   margin: 0 19px;
@@ -37,7 +43,7 @@ header {
 
 /* ########## DESTAQUE ########## */
 .destaque {
-  background: #FBDFDB;
+  background: var(--color-background);
   border-radius: 30px;
   border-radius: 30px;
   max-width: 940px;
@@ -48,7 +54,7 @@ header {
 
 .destaque h1 {
   font-size: 32px;
-  color: #111111;
+  color: var(--color--black);
   padding-top: 117px;
   padding-bottom: 10px;
   padding-left: 60px;
@@ -77,7 +83,6 @@ aside {
 }
 
 .mais-acessadas {
-  /* background-color:  red; */
   max-width: 940px;
   margin-top: 50px;
 }
@@ -100,14 +105,14 @@ aside {
 
 .item h2 {
   font-size: 18px;
-  color: #111111;
+  color: var(--color--black);
   padding-top: 10px;
   padding-bottom: 5px;
 }
 
 .item p {
   font-size: 14px;
-  color: #777777;
+  color: var(--color-grey);
 }
 
 /* ########## SOBRE ########## */
@@ -118,13 +123,13 @@ aside {
 
 .sobre h1 {
   font-size: 24px;
-  color: #111111;
+  color: var(--color--black);
   margin-bottom: 10px;
 }
 
 .sobre h2 {
   font-size: 20px;
-  color: #111111;
+  color: var(--color--black);
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -154,7 +159,7 @@ aside {
 
 .modal {
   background-color: white;
-  width: 720px;
+  width: 660px;
   height: 450px;
   margin: 25vh auto;
   position: relative;
@@ -167,7 +172,7 @@ aside {
   text-decoration: none;
   position: absolute;
   bottom: 30px;
-  right: 300px;
+  right: 280px;
   cursor: pointer;
 }
 
@@ -175,6 +180,26 @@ aside {
 .modal-overlay.active{
   opacity: 1;
   visibility: visible;
+}
+
+.modal-content img {
+  width: 600px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 30px 30px;
+}
+
+.modal-content h1 {
+  font-size: 24px;
+  color: var(--color--black);
+  text-align: center;
+}
+
+.modal-content p {
+  font-size: 18px;
+  color: var(--color-grey);
+  text-align: center;
+  margin-top: 10px;
 }
 
 /* ########## FOOTER ########## */
