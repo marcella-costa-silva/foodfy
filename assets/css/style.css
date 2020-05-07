@@ -110,6 +110,33 @@ aside {
   color: #777777;
 }
 
+/* ########## SOBRE ########## */
+.sobre {
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.sobre h1 {
+  font-size: 24px;
+  color: #111111;
+  margin-bottom: 10px;
+}
+
+.sobre h2 {
+  font-size: 20px;
+  color: #111111;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.sobre p {
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+  padding: 5px;
+}
+
 /* ########## FOOTER ########## */
 footer {
   background: #EEEEEE;
