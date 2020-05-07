@@ -111,10 +111,9 @@ aside {
 }
 
 /* ########## SOBRE ########## */
-.sobre {
+.sobre, .receitas {
   max-width: 940px;
   margin: 0 auto;
-  text-align: justify;
 }
 
 .sobre h1 {
@@ -135,6 +134,7 @@ aside {
   color: #444444;
   line-height: 28px;
   padding: 5px;
+  text-align: justify;
 }
 
 /* ########## FOOTER ########## */
